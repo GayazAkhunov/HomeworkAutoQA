@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 
 public class Practise1 {public static void main(String[] args){
     int age = 27;
