@@ -29,6 +29,5 @@ public class Homework3_3 {
         }
         System.out.println("Индекс минимального элемента : " + imin + " значение - " + min);
         System.out.println("Индекс максимального элемента : " + imax + " значение - " + max);
-
     }
 }

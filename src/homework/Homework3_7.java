@@ -14,7 +14,6 @@ public class Homework3_7 {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = random.nextInt(10);
         }
-        //int[] numbers = new int[] {9, 9, 9}; - проверка работы
         System.out.println("Исходный массив: ");
         System.out.println(Arrays.toString(numbers));
         int carry = 1;

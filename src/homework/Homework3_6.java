@@ -14,7 +14,6 @@ public class Homework3_6 {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = random.nextInt(100);
         }
-        //Arrays.sort(numbers);//для проверки на возрастание
         boolean flag = true;
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] <= numbers[i - 1]) {
