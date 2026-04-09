@@ -17,9 +17,7 @@ public class Practise3_3 {
         for (int i = 0; i < masDouble.length; i++) {
             masDouble[i] = random.nextDouble() * 10;
         }
-
         System.out.println(Arrays.toString(masDouble));
-
         for (int i = 0; i < masDouble.length; i++) {
             if (i % 2 == 0) {
                 masDouble[i] = masDouble[i] * masDouble[i];
@@ -27,5 +25,4 @@ public class Practise3_3 {
         }
         System.out.println(Arrays.toString(masDouble));
     }
-
 }
